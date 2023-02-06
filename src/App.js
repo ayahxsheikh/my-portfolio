@@ -1,25 +1,33 @@
 import './App.css';
 import Home from './pages/Home';
-import Header from './components/Header';
-import Project from './pages/Project';
-import PGallery from './components/PGallery';
+import PGallery from './pages/PGallery';
 import Contact from './pages/Contact';
 
-import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Project from './components/Project';
+
+// import {Routes, Route} from 'react-router-dom';
 
 
 function App() {
   return (
     < >
-    <Home />
-
     <Header />
 
-    <Project />
+    <Home />
 
     <PGallery />
 
+    {/* <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<PGallery />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes> */}
+
+    <Project />
+
     <Contact />
+
     </>
   );
 }
