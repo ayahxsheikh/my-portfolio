@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 import Header from './components/Header';
 import Project from './components/Project';
 
-// import {Routes, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 
 function App() {
@@ -14,19 +14,19 @@ function App() {
     < >
     <Header />
 
-    <Home />
+    {/* <Home />
 
-    <PGallery />
+    <PGallery /> */}
 
-    {/* <Routes>
+    <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<PGallery />} />
       <Route path="/contact" element={<Contact />} />
-    </Routes> */}
+    </Routes>
 
     <Project />
 
-    <Contact />
+    {/* <Contact /> */}
 
     </>
   );
