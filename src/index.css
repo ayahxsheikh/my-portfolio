@@ -1,7 +1,17 @@
 :root {
-  --header: #c4cba1;
-  --text: #ffffff;
+  --header: #f0dbdbad;
+  --text: #635454;
 
+}
+
+html {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/567/632/non_2x/abstract-geometric-background-with-minimal-shape-gradient-and-memphis-style-suitable-for-various-background-design-template-banner-poster-presentation-etc-vector.jpg");
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 /* RESETS */

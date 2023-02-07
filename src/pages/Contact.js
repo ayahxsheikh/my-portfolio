@@ -1,4 +1,5 @@
-import Header from "../components/Header";
+// import Header from "../components/Header";
+
 
 function Contact(){
 return(
@@ -11,9 +12,9 @@ return(
         <button>Submit</button>
     </form>
 
-    <button>LinkedIn</button>
-    <button>GitHub</button>
-    <button>CV PDF</button>
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+    <a href="#">CV PDF</a>
 
     </>
 )
