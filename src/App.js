@@ -5,7 +5,6 @@ import PGallery from './pages/PGallery';
 import Contact from './pages/Contact';
 
 import Header from './components/Header';
-import Project from './components/Project';
 
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
     </Routes>
 
-    <Project />
+
 
     </>
   );

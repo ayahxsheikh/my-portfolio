@@ -32,13 +32,6 @@ body {
   
 
   /* CUSTOM STYLES */
-/* body{
-  
-  background-image: url('./images/backgd.png');
-  background-repeat: no-repeat;
-  background-size: 50%;
-
-} */
 
   header {
     display: flex;
