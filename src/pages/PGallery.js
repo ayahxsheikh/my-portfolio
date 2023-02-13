@@ -10,7 +10,7 @@ function PGallery(){
         <>
     <h1>Project Gallery</h1>
 
-       <main className="project-grid">
+       <section className="project-grid">
         <div className="project-card">
             <h4>Title</h4>
         </div>
@@ -26,7 +26,7 @@ function PGallery(){
         <div className="project-card">
             <h4>Title</h4>
         </div>
-       </main>
+       </section>
         
         </>
 

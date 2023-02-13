@@ -25,6 +25,9 @@ html {
   background-position:center;
   }
 
+  body {
+    font-family: 'Raleway'
+  }
 
   header {
     display: flex;
@@ -38,11 +41,33 @@ html {
     padding: 2% 3%;
   }
 
-  a {
+  nav a {
     color: var(--text);
     font-size: 16px;
+    text-decoration: none;
   }
 
-  a:not(:last-child) {
-    margin-right: 7px;
+  nav a:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  nav a.active {
+    text-decoration: underline;
+  }
+
+  /* Home-page Styles */
+
+ main {
+  padding: 5%;
+  margin-top: 12%;
+ }
+ 
+ main .title {
+   font-size: 55px;
+   font-family: 'Monoton', serif;
+   line-height: 100%;
+  }
+  
+  p {
+   font-size: 16px;
   }
