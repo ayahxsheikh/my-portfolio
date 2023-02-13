@@ -4,7 +4,7 @@
 function Contact(){
 return(
     <>
-    <h2>Let's Get in Touch</h2>
+    <h1>Let's Get in Touch</h1>
     <form>
         <p>Name</p>
         <p>Email</p>

@@ -2,14 +2,31 @@
 
 function PGallery(){
 
-    
+
     return(
         // export project.js
         // map over project arr, give parent el key and index 
         // print out each item and its obj.properties
         <>
-    <h3>Project Gallery</h3>
+    <h1>Project Gallery</h1>
 
+       <main className="project-grid">
+        <div className="project-card">
+            <h4>Title</h4>
+        </div>
+
+        <div className="project-card">
+            <h4>Title</h4>
+        </div>
+
+        <div className="project-card">
+            <h4>Title</h4>
+        </div>
+
+        <div className="project-card">
+            <h4>Title</h4>
+        </div>
+       </main>
         
         </>
 

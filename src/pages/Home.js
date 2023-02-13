@@ -3,8 +3,10 @@
 function Home(){
     return(
     <>
-     <h1>Welcome to my Portfolio, I'm Ayah</h1>
-     <p>Brand Statement: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus vero soluta maiores!</p>
+    <main>
+        <h1>I'm Ayah, Frontend Web Developer, welcome to my site</h1>
+        <p>Brand Statement: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus vero soluta maiores!</p>
+    </main>
 
     </>
 
