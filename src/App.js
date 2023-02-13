@@ -1,4 +1,5 @@
 import {Routes, Route} from 'react-router-dom';
+import projects from './projects.json';
 
 import Home from './pages/Home';
 import PGallery from './pages/PGallery';
