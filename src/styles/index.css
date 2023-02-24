@@ -16,15 +16,6 @@ body, html, #root {
 
 /* CUSTOM STYLES */
 
-html {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/004/567/632/non_2x/abstract-geometric-background-with-minimal-shape-gradient-and-memphis-style-suitable-for-various-background-design-template-banner-poster-presentation-etc-vector.jpg");
-  position: fixed;
-  width: 100%;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-  }
-
   body {
     font-family: 'Raleway'
   }
@@ -87,6 +78,15 @@ html {
   }
 
   /* Contact Page */
+  .contactBg {
+  background-image: url("../images/bgImg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  }
 
   .div-wrapper {
     position: relative;
