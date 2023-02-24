@@ -7,8 +7,9 @@ function PGallery(){
         // export project.js
         // map over project arr, give parent el key and index 
         // print out each item and its obj.properties
-        <>
-    <h1>Project Gallery</h1>
+        <div className="projectBg">
+
+        <h1>Project Gallery</h1>
 
        <section className="project-grid">
         <div className="project-card">
@@ -27,8 +28,7 @@ function PGallery(){
             <h4>Title</h4>
         </div>
        </section>
-        
-        </>
+       </div>
 
     )
 }

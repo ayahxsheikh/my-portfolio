@@ -10,15 +10,12 @@ const style = {
 }
 function Home(){
     return(
-    <>
-    <main>
+    <main className="mainBg">
         <p style={style.pText}>Hey, I'm Ayah</p>
         <p className="title">Frontend</p>
         <p className="title"> Web Developer</p> 
         <p style={style.text}>I design and code immersive web applications | UI/UX Designer</p>
     </main>
-
-    </>
 
     )
 }

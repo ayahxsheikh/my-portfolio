@@ -1,3 +1,8 @@
+:root {
+  --header: #f0dbdbad;
+  --text: #635454;
+}
+
 /* RESETS */
 * {
   margin: 0px;
@@ -8,11 +13,6 @@ body, html, #root {
   height: 100%;
   }
 
-:root {
-  --header: #f0dbdbad;
-  --text: #635454;
-  
-}
 
 /* CUSTOM STYLES */
 
@@ -48,9 +48,19 @@ body, html, #root {
 
   /* Home-page Styles */
 
+  .mainBg{
+    background-image: url("../images/bgImg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    }
+
  main {
   padding: 5%;
-  margin-top: 12%;
+  padding-top: 12%;
  }
  
  main .title {
@@ -64,6 +74,17 @@ body, html, #root {
   }
 
   /* Project Gallery Styles */
+
+  .projectBg{
+    background-image: url("../images/bgImg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    }
+
 
   section {
     display: grid;
