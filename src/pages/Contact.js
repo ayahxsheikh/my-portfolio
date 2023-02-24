@@ -1,4 +1,5 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../styles/contact.css'
 
 function Contact(){
 

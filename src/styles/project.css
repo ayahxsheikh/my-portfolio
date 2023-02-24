@@ -1,0 +1,25 @@
+/* Project Gallery Styles */
+
+.projectBg{
+    background-image: url("../images/bgImg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    }
+
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10%;
+    row-gap: 15rem;
+    text-align: center;
+  }
+
+  section {
+    padding: 5%;
+  }

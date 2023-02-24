@@ -1,5 +1,6 @@
 import Project from '../components/Project';
 import pData from '../projects.json'
+import '../styles/project.css'
 
 function PGallery(){
 
