@@ -6,7 +6,7 @@ function Header(props){
             <h3>Logo</h3>
             <nav>
             <NavLink to="/" >Home</NavLink>
-            <NavLink to="/projects" >Projects</NavLink>
+            <NavLink to="/project-gallery" >Projects</NavLink>
             <NavLink to="/contact">Contact</NavLink>
             </nav>
         </header>
