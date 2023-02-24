@@ -1,4 +1,5 @@
-// import Header from "./Header";
+import Project from '../components/Project';
+import pData from '../projects.json'
 
 function PGallery(){
 
@@ -12,7 +13,14 @@ function PGallery(){
         <h1>Project Gallery</h1>
 
        <section className="project-grid">
-        <div className="project-card">
+       {pData.map((proj, index) => (
+        <Project 
+        key={index}
+        title={proj.title}
+        />
+        ))}
+
+        {/* <div className="project-card">
             <h4>Title</h4>
         </div>
 
@@ -22,11 +30,7 @@ function PGallery(){
 
         <div className="project-card">
             <h4>Title</h4>
-        </div>
-
-        <div className="project-card">
-            <h4>Title</h4>
-        </div>
+        </div> */}
        </section>
        </div>
 
