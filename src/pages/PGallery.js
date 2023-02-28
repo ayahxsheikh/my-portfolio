@@ -7,9 +7,10 @@ function PGallery(){
 
     return(
 
-        <div className="projectBg">
+        <div className="projectContainer projectBg">
 
-        <h1>Project Gallery</h1>
+        <h1 className="proj-title">Project Gallery</h1>
+        <p className="p">Here you can find some of my most recent projects</p>
 
        <section className="project-grid">
        {pData.map((project, index) => (
@@ -19,18 +20,6 @@ function PGallery(){
         image={project.image}
         />
         ))}
-
-        {/* <div className="project-card">
-            <h4>Title</h4>  
-        </div>
-
-        <div className="project-card">
-            <h4>Title</h4>
-        </div>
-
-        <div className="project-card">
-            <h4>Title</h4>
-        </div> */}
        </section>
        </div>
 
