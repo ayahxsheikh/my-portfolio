@@ -1,28 +1,27 @@
-import Project from '../components/Project';
 import pData from '../projects.json'
+import Project from '../components/Project';
 import '../styles/project.css'
 
 function PGallery(){
 
 
     return(
-        // export project.js
-        // map over project arr, give parent el key and index 
-        // print out each item and its obj.properties
+
         <div className="projectBg">
 
         <h1>Project Gallery</h1>
 
        <section className="project-grid">
-       {pData.map((proj, index) => (
+       {pData.map((project, index) => (
         <Project 
         key={index}
-        title={proj.title}
+        title={project.title}
+        image={project.image}
         />
         ))}
 
         {/* <div className="project-card">
-            <h4>Title</h4>
+            <h4>Title</h4>  
         </div>
 
         <div className="project-card">

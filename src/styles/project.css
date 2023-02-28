@@ -1,7 +1,7 @@
 /* Project Gallery Styles */
 
 .projectBg{
-    background-image: url("../images/bgImg.png");
+    background-image: url("../assets/bgImg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -15,11 +15,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 10%;
-    row-gap: 15rem;
+    gap: 3%;
+    row-gap: 1rem;
     text-align: center;
   }
 
   section {
     padding: 5%;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("../images/weatherApp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:10rem; */
+  }
+
+  .proj-img{
+    /* max-width: 300px; */
+    height: 150px;
   }

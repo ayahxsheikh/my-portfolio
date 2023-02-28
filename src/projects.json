@@ -3,37 +3,19 @@
         "title": "WeatherApp",
         "deployed": "https://zaitken1.github.io/music-app/",
         "githib": "https://github.com/zaitken1/music-app",
-        "image": ""
+        "image": "assets/weatherApp.png"
     },
     {
         "title": "MusiXTube",
         "deployed": "https://zaitken1.github.io/music-app/",
         "githib": "https://github.com/zaitken1/music-app",
-        "image": ""
+        "image": "assets/musixTube.png"
     },
     {
         "title": "Team-Profile",
         "deployed": "https://zaitken1.github.io/music-app/",
         "githib": "https://github.com/zaitken1/music-app",
-        "image": ""
-    },
-    {
-        "title": "Mindfull",
-        "deployed": "https://zaitken1.github.io/music-app/",
-        "githib": "https://github.com/zaitken1/music-app",
-        "image": ""
-    },
-    {
-        "title": "Work-Day Schedule",
-        "deployed": "https://zaitken1.github.io/music-app/",
-        "githib": "https://github.com/zaitken1/music-app",
-        "image": ""
-    },
-    {
-        "title": "Readme-Generator",
-        "deployed": "https://zaitken1.github.io/music-app/",
-        "githib": "https://github.com/zaitken1/music-app",
-        "image": ""
+        "image": "assets/myteam.png"
     }
 
 ]
