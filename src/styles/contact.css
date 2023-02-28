@@ -1,5 +1,5 @@
 .contactBg {
-    background-image: url("../assets/bgImg.png");
+    background-image: url("/public/assets/bgImg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
