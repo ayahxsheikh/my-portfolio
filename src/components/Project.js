@@ -5,9 +5,9 @@ function Project(props){
         <>
             <div className="project-card">
                 <img className="proj-img" src={props.image} alt="title"/>
-                <div className="view-more">
-                    {/* <h4 className="p-title">{props.title}</h4> */}
-                {/* <button className="btn">View More</button> */}
+                <div className="card-btm">
+                    <h4 className="p-title">{props.title}</h4>
+                <button className="btn">View More</button>
                 </div>
             </div>
         
