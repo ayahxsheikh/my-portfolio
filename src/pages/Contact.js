@@ -1,4 +1,4 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../styles/contact.css'
 
 function Contact(){
@@ -19,22 +19,22 @@ function Contact(){
                     <textarea placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
                     <button className="f-btn" >Submit</button>
                 </form>
+            </div>
 
-                <div className="icon-div"> FB
-                    <a href="https://www.facebook.com/">
-                        {/* <FontAwesomeIcon className="icon fb" icon="fa-brands fa-facebook-f" size="lg"/> */}
-                    </a> IG
+                <div className="icon-div"> 
+                    <a href="https://github.com/ayahxsheikh">
+                    <FontAwesomeIcon icon="fab fa-github" className="icon gh" size="lg"/>
+                    </a> 
                     <a href="https://instagram.com/"> 
-                        {/* <FontAwesomeIcon className="icon ig" icon="fa-brands fa-instagram" size="lg" /> */}
-                    </a> TW
+                        <FontAwesomeIcon  icon="fa-brands fa-instagram" className="icon ig" size="lg" />
+                    </a> 
                     <a href="https://twitter.com/">
-                        {/* <FontAwesomeIcon className="icon tw" icon="fa-brands fa-twitter" size="lg"/> */}
-                    </a> In
+                        <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon tw" size="lg"/>
+                    </a> 
                     <a href="https://linkedin.com/"> 
-                        {/* <FontAwesomeIcon className="icon in" icon="fa-brands fa-linkedin-in" size="lg"/> */}
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icon in" size="lg"/>
                     </a> 
                 </div>
-            </div>
         </div>
         </>
     )
