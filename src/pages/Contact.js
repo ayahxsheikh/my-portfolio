@@ -1,6 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../styles/contact.css'
 
+const styles = {
+    h3: {
+        color: '#222121da'
+    },
+    text1: {
+        backgroundColor: '#deeff2ee'
+    },
+    text2: {
+        backgroundColor:'#f1e6f1ee'
+    },
+    text3: {
+        backgroundColor: '#eef6dbee'
+    }
+}
+
 function Contact(){
 
     const handleSubmit = event => {
@@ -14,16 +29,16 @@ function Contact(){
 
                 <aside className="contact-info"> 
                     {/* <h3>contact Information</h3> */}
-                   <div className="text" >
-                        <h3>Name</h3>
+                   <div className="text" style={styles.text1} >
+                        <h3 style={styles.h3}>Name:</h3>
                         <h4>Ayah Sheikh</h4>
                     </div> 
-                    <div className="text">
-                        <h3>Email</h3>
+                    <div className="text" style={styles.text2}>
+                        <h3 style={styles.h3}>Email:</h3>
                         <h4>ayahshaykgmail.com</h4>
                     </div>
-                    <div className="text">
-                        <h3>Location</h3>
+                    <div className="text" style={styles.text3} >
+                        <h3 style={styles.h3}>Location:</h3>
                         <h4>London, UK</h4>
                     </div>
                 </aside>
