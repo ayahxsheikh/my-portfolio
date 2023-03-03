@@ -5,51 +5,84 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     }
   
-    .div-wrapper {
+    .main-wrapper {
       position: relative;
       padding-top: 6rem;
     }
-    
-    .background-div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 2rem auto; 
-      padding-bottom: 3%;
-      width: 90%; 
-      max-width: 600px; 
-      background-color: #e3b6b69c;
-      border-radius: 30px;
+
+    .contact-title {
+      text-align: center;
+      margin-top: -50px;
+      margin-bottom: 2rem;
+      color: #717577;
+      /* font-size: 1.5rem;  */
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 2fr;
+      grid-template-rows: 1fr 1 / 4 fr;
+      margin-top: 2rem;
+      background-color: #ffffffa1;
+      border-radius: 20px;
+      padding: 7% 1%;
+      /* grid-template-areas: '#icons #contact'
+      'idk #contact'; */
     }
     
-    .form-h2 {
-      margin-top: -40px;
+    .contact-info{
+      display: flex;
+      flex-direction: column;
+      /* align-items:center; */
+      gap: 1.9rem;
+      /* grid-area: '#icon'; */
+      /* margin: 2rem auto; */
+      margin-left:5rem;
       color: #717577;
-      font-size: 1.5rem; 
+    }
+  
+    .text{
+    padding: 9%;
+    max-width: 60%;
+    border: 1px solid #fff;
+    background-color: #efdfcbee;
+    border-radius: 20px;
+    }
+
+    .background-div {
+      /* grid-area: '#contact'; */
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+      /* margin: 0rem auto;  */
+      margin-left: 4rem;
+      padding-bottom: 3%;
+      width: 80%; 
+      max-width: 600px; 
+      background-color: #e3b6b69c;
+      border-radius: 20px;
     }
     
     form {
       display: flex;
       flex-direction: column;
       width: 90%; 
+      /* margin-left: 4rem; */
       margin: 1rem auto; 
       padding-top: 7%;
-      max-width: 400px; 
+      max-width: 450px; 
     }
-
-    /* form * > :not(:last-child){
-    } */
 
     form > * {
       padding: 7px 10px;
       margin-bottom: 7px;
       border: 1px solid #ccc;
       outline: #F08A9B;
-      background-color: #ffffffe1;
+      background-color: #ffffffe2;
       border-radius: 4px;
       /* font-size: 1rem;  */
     }
@@ -71,8 +104,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* grid-area: '#icon'; */
+    margin: 2rem auto;
   }
 
   .icon{
     margin-right: 14px;
   }
+ 
