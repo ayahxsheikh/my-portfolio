@@ -3,6 +3,10 @@ import '../styles/contact.css'
 
 const styles = {
     h3: {
+        textAlign: 'center',
+        color: '#717577'
+    },
+    p: {
         color: '#222121da'
     },
     text1: {
@@ -25,26 +29,38 @@ function Contact(){
         <>
         <main className="contactBg main-wrapper">
             <h1 className="contact-title">Let's Get in Touch</h1>
+                    <h3 style={styles.h3}>Drop me an email or fill out the form below. I look forward to hearing from you</h3>
             <section className="contact-grid">
 
                 <aside className="contact-info"> 
-                    {/* <h3>contact Information</h3> */}
-                   <div className="text" style={styles.text1} >
-                        <h3 style={styles.h3}>Name:</h3>
-                        <h4>Ayah Sheikh</h4>
+
+                   <div className="contact-text" style={styles.text1} >
+                        <FontAwesomeIcon icon="fas fa-user" className="icon"/>
+                        <div className="text-info">
+                            <h3 style={styles.p}>Name:</h3>
+                            <h4>Ayah Sheikh</h4>
+                        </div>
                     </div> 
-                    <div className="text" style={styles.text2}>
-                        <h3 style={styles.h3}>Email:</h3>
-                        <h4>ayahshaykgmail.com</h4>
+
+                    <div className="contact-text" style={styles.text2}>
+                        <FontAwesomeIcon icon="fas fa-envelope" className="icon"/>
+                        <div className="text-info">
+                            <h3 style={styles.p}>Email:</h3>
+                            <h4>ayahshayk@gmail.com</h4>
+                        </div>
                     </div>
-                    <div className="text" style={styles.text3} >
-                        <h3 style={styles.h3}>Location:</h3>
-                        <h4>London, UK</h4>
+
+                    <div className="contact-text" style={styles.text3} >
+                        <FontAwesomeIcon icon="fas fa-map-marked-alt" className="icon"/>
+                        <div className="text-info">
+                            <h3 style={styles.p}>Location:</h3>
+                            <h4>London, UK</h4>
+                        </div>
                     </div>
                 </aside>
+                {/* <h3>Fill out the form</h3> */}
            
                 <div className="background-div" id="contact">
-
                     <form onSubmit={handleSubmit} >
                         <input type="text" placeholder="Name" />
                         <input  placeholder="Email Address" />

@@ -44,12 +44,16 @@
       color: #717577;
     }
   
-    .text{
-    padding: 9%;
-    max-width: 60%;
-    border: 1px solid #fff;
-    /* background-color: #f1e6f1ee; */
-    border-radius: 20px;
+    .contact-text {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: start;
+      gap: 5%;
+      padding: 9%;
+      max-width: 80%;
+      border: 1px solid #fff;
+      /* background-color: #f1e6f1ee; */
+      border-radius: 20px;
     }
 
     .background-div {
@@ -109,3 +113,6 @@
     margin-right: 20px;
   }
  
+  .text-info {
+    flex-direction: column;
+  }
