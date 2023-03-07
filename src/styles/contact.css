@@ -25,22 +25,23 @@
       display: grid;
       grid-template-columns: 1.5fr 2fr;
       grid-template-rows: 1fr 1 / 4 fr;
-      margin-top: 2rem;
-      background-color: #ffffffa1;
+      margin: 2rem auto;
+      background-color: #6a68681c;
+      /* background-color: #ffffff92; */
       border-radius: 20px;
       padding: 7% 1%;
       /* grid-template-areas: '#icons #contact'
       'idk #contact'; */
     }
     
-    .contact-info{
+    .contact-info {
       display: flex;
       flex-direction: column;
       /* align-items:center; */
       gap: 1.9rem;
       /* grid-area: '#icon'; */
       /* margin: 2rem auto; */
-      margin-left:5rem;
+      margin-left:2rem;
       color: #717577;
     }
   
@@ -51,9 +52,12 @@
       gap: 5%;
       padding: 9%;
       max-width: 80%;
-      border: 1px solid #fff;
       /* background-color: #f1e6f1ee; */
       border-radius: 20px;
+    }
+
+    .text-info {
+      flex-direction: column;
     }
 
     .background-div {
@@ -64,8 +68,8 @@
       margin-left: 4rem;
       width: 80%; 
       max-width: 600px; 
-      background-color: #e6e6e6ee;
-      /* background-color: #e3b6b69c; */
+      background-color: #dadadaec;
+      /* background-color: #e6e6e6ee; */
       border-radius: 20px;
     }
     
@@ -78,28 +82,31 @@
       max-width: 450px; 
     }
 
-    form > * {
-      padding: 3%;
+    form :not(:last-child) {
+      padding: 4%;
       margin-bottom: 12px;
       border: none;
       /* border: 1px solid #ebe7e7; */
       outline: #F08A9B;
-      background-color: #ffffffda;
+      background-color: #f4f4f4fc;
       border-radius: 4px;
       /* font-size: 1rem;  */
     }
     
     .f-btn {
+      padding: 2%;
       color: #fff;
-      background-color: #F08A9B;
-      background-image: linear-gradient(to right, #ff3a99d9, #f85ca8,#e7644f);
+      border: none;
       cursor: pointer;
-      /* max-width: 200px; */
+      margin: 0 auto;
+      width: 160px;
       border-radius: 7px;
+      background-image: linear-gradient(to right, #ff3a99d9, #f85ca8,#e7644f);
   }
   
   .f-btn:hover {
-      background-color: #d87c8c;
+    background-image: linear-gradient(to right, #f8c4e1ef,  #edd7c1);
+      color: #000000;
   }
   
   .icon-div{
@@ -111,8 +118,33 @@
 
   .icon{
     margin-right: 20px;
+    font-size: 1.5rem;
   }
- 
-  .text-info {
-    flex-direction: column;
+
+  .gh {
+    color: black;
+  }
+
+  .ig {
+    color: #7e01af;
+  }
+
+  .tw {
+    color: #00b3ff;
+  }
+
+  .in {
+    color: #3a44af;
+  }
+
+  .text1 {
+    background-color: #c4dde1d1;
+  }
+
+  .text2 {
+    background-color: #dfd1dfd6;
+  }
+
+  .text3 {
+    background-color: #d8dec9ee;
   }
