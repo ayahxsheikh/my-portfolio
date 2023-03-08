@@ -9,15 +9,15 @@ const styles = {
     p: {
         color: '#222121da'
     },
-    // text1: {
-    //     backgroundColor: '#deeff2ee'
-    // },
-    // text2: {
-    //     backgroundColor:'#f1e6f1ee'
-    // },
-    // text3: {
-    //     backgroundColor: '#eef6dbee'
-    // }
+    text1: {
+        backgroundColor: '#deeff2ee'
+    },
+    text2: {
+        backgroundColor:'#f1e6f1ee'
+    },
+    text3: {
+        backgroundColor: '#eef6dbee'
+    }
 }
 
 function Contact(){
@@ -59,7 +59,7 @@ function Contact(){
                     </div>
                 </aside>
            
-                <div className="background-div" id="contact">
+                <div className="form-bg" id="contact">
                     <form onSubmit={handleSubmit} >
                         <input type="text" placeholder="Name" />
                         <input  placeholder="Email Address" />
