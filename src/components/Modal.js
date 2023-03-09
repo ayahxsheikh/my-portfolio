@@ -1,6 +1,8 @@
 
 function Modal (props){
-
+    if(!props.show){
+        return null
+    }
 
     return (
         <div className="modal">

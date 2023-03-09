@@ -18,7 +18,7 @@ function Project(props){
                     <img className="proj-img" src={props.image} alt="title"/>
                     <figcaption>
                         <p className="p-title">{props.title}</p>
-                        <Modal />
+                        <Modal show={showModal}/>
                         <p>{}</p>
                     </figcaption>
                 </figure>
