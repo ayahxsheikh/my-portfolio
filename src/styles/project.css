@@ -38,6 +38,7 @@
     justify-content:center;
     border-radius: 7px;
     height: 230px; 
+    margin-bottom: 2rem;
     /* height adjusts space of content inside cards */
   }
 
@@ -47,28 +48,7 @@
     border-radius: 8px;
   }
 
-  /* .card-btm {
-    border-radius: 7px;
-  }
 
-    .p-title{
-      color:#252626;
-      font-size: 1.2rem;
-      font-weight: 500px;
-      margin-bottom: 4%;
-    }
-
-    .btn {
-      padding: 2% 5%;
-      border-radius: 7px;
-      border: none;
-      background-image: linear-gradient(to right, #bbe6f7d9, #bdcaf9);
-      cursor: pointer;
-    }
-
-    .btn:hover{
-      background-image: linear-gradient(#9fcefdd4, #97d6fe);
-    } */
 
 
     @media only screen and (min-width: 400px) {
