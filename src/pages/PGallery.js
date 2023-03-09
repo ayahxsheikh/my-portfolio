@@ -9,7 +9,7 @@ function PGallery(){
 
         <div className="projectContainer projectBg">
 
-        <h1 className="proj-title">Portfolio</h1>
+        <h1 className="portfolio-title">Portfolio</h1>
         <p className="p">Here you can find some of my most recent projects</p>
 
        <section className="project-grid">

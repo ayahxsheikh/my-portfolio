@@ -14,7 +14,7 @@
     width: 100%;
     }
 
-.proj-title {
+.portfolio-title {
   font-size: 44px;
   text-align: center;
   padding-top: 2.5rem;
@@ -39,6 +39,7 @@
     border-radius: 7px;
     height: 230px; 
     margin-bottom: 2rem;
+    cursor: pointer;
     /* height adjusts space of content inside cards */
   }
 
@@ -47,7 +48,12 @@
     width: 300px;
     border-radius: 8px;
   }
-
+/* chnage after adding overlay */
+  .p-title{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #5e5b5b;
+  }
 
 
 

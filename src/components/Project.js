@@ -1,20 +1,27 @@
+import { useState } from 'react';
+import Modal from './Modal';
+
+
 
 function Project(props){
 
+    const [showModal, setShowModal] = useState(false);
+
+    const func = () => {
+        setShowModal(true)
+    }
+
     return (
         <>
-            <div className="project-card">
+            <div onClick={func} className="project-card">
                 <figure className="img-overlay">
                     <img className="proj-img" src={props.image} alt="title"/>
                     <figcaption>
-                        <p>{props.title}</p>
+                        <p className="p-title">{props.title}</p>
+                        <Modal />
                         <p>{}</p>
                     </figcaption>
                 </figure>
-                {/* <div className="card-btm">
-                    <h4 className="p-title">{props.title}</h4>
-                <button className="btn">View More</button>
-                </div> */}
             </div>
         
         </>
