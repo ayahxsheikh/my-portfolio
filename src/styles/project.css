@@ -55,21 +55,13 @@
     color: #5e5b5b;
   }
 
-  .modal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right:0;
-    bottom: 0;
-    background-color: #00000080;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  /* MODAL STYLES */
 
   .modal-content {
     width: 500px;
-    background-color: #dbf6f7;
+    height: 500px;
+    background-color: #e0e0e0db;
+    /* background-color: #39393987; */
   }
 
   .modal-header .modal-footer {
@@ -84,7 +76,7 @@
 
   .modal-body {
     padding: 10px;
-    border-top: 1px solid #858080;
+    border-top: 1px solid #858282;
     border-bottom:1px solid #858080;
   }
 

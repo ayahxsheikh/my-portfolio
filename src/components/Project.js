@@ -3,21 +3,6 @@ import Modal from 'react-modal';
 
 Modal.setAppElement('#root');
 
-// const styles = {
-//     modalContent: {
-//         position: 'fixed',
-//         top: '0',
-//         left: '0',
-//         right:'0',
-//         bottom: '0',
-//         backgroundColor: '#5e5b5b34',
-//         display: 'flex',
-//         alignItems: 'center',
-//         justifyContent: 'center'
-//     }
-
-// }
-
 function Project(props){
 
     const [showModal, setShowModal] = useState(false);
@@ -39,7 +24,25 @@ function Project(props){
             <Modal 
             isOpen={showModal} 
             onRequestClose={closeModal} 
-            // style={styles.modalContent}
+            style={{
+                content: {
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    top: '50%',
+                    left: '50%',
+                    right:'auto',
+                    bottom: 'auto',
+                    marginRight: "-50%",
+                    transform: 'translate(-50%, -50%)',
+                    backgroundColor: '#00000080',
+                    padding: '0',
+                    zIndex: '999'
+                },
+                overlay: {
+                    backgroundColor: '#41404074'
+                }
+            }}
             >
 
             <div className='modal'>
