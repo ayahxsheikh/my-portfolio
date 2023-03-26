@@ -4,7 +4,7 @@
         "deployed": "https://ayahxsheikh.github.io/weather-app/",
         "githib": "https://github.com/ayahxsheikh/weather-app",
         "image": "assets/weatherApp.png",
-        "description": "an app used to display current forecast of any city and its future forecast for the next 5 days",
+        "description":"An app used to display current forecast of any city and its future forecast for the next 5 days",
         "tools": "API, jQuery, HTML, CSS, Moment"
     },
     {
@@ -12,7 +12,7 @@
         "deployed": "https://mindfulmindful.netlify.app/",
         "githib": "https://github.com/ayahxsheikh/MindfullnessApp",
         "image": "assets/mindfull.png",
-        "description": "mobile-design app focusing on productivity and personal growth for a healthy and stress-free lifestyle",
+        "description":"Mobile-design app focusing on productivity and personal growth for a healthy and stress-free lifestyle",
         "tools": "Reactjs, CSS, NPM, FontAwesome"
     },
     {
@@ -20,7 +20,7 @@
         "deployed": "",
         "githib": "https://github.com/ayahxsheikh/Team-Profile-Generator",
         "image": "assets/myteam.png",
-        "description": "using node.js this application creates a team of employees with a manager using the command line",
+        "description":"This app uses node.js to create a team of employees with a manager generated through command-line prompts",
         "tools": "Node.js, CSS"
     },
     {
@@ -28,7 +28,7 @@
         "deployed": "https://drive.google.com/file/d/1qCjseXSa9IBvpBok3J_fpcBB4nAv5JC-/view",
         "githib": "https://github.com/ayahxsheikh/readme-generator",
         "image": "assets/readme-gen.png",
-        "description": "This command line application uses node.js to efficiently create a README.md file",
+        "description":"This command line application uses node.js to efficiently create a README.md file",
         "tools": "Node.js, JavaScript"
     },
     {
@@ -36,7 +36,7 @@
         "deployed": "https://ayahxsheikh.github.io/work-schedule-app/",
         "githib": "https://github.com/ayahxsheikh/work-schedule-app",
         "image": "assets/calendar-app.png",
-        "description": "A simple application that allows users to save events/appoointments each hour in their work-day",
+        "description":"A simple application that allows users to save events/appoointments each hour in their work-day",
         "tools": "jQuery, HTML, CSS, Moment"
     },
     {
@@ -44,7 +44,7 @@
         "deployed": "https://zaitken1.github.io/music-app/",
         "githib": "https://github.com/zaitken1/music-app",
         "image": "assets/musixTube.png",
-        "description": "This app allows music lovers to search for artist and play their favourite songs using YouTube API",
+        "description":"This app allows music lovers to search for artist and play their favourite songs using YouTube API",
         "tools": "API, jQuery, HTML, CSS, JavaScript"
     }
 

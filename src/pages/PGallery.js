@@ -18,6 +18,8 @@ function PGallery(){
         key={index}
         title={project.title}
         image={project.image}
+        description={project.description}
+        tools={project.tools}
         />
         ))}
        </section>
