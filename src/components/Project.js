@@ -16,8 +16,7 @@ function Project(props){
                 <figure className="img-overlay">
                     <img className="proj-img" src={props.image} alt="title"/>
                     <figcaption>
-                        <p className="p-title">{props.title}</p>
-                        <p>{}</p>
+                        <p className="p-title">{}</p>
                     </figcaption>
                 </figure>
             </div>
@@ -51,12 +50,14 @@ function Project(props){
                         <button onClick={closeModal}>Close</button>
                     </div>
                     <h2 className='modal-title'>{props.title}</h2>
-                    <h4 className='modal-body'>
-                        {props.description}</h4>
-                    <p>{props.tools}</p>
+                    <div className='modal-body'>
+                        <img className="modalImg" src={props.image} alt="img"/>
+                        {props.description}
+                        </div>
                     <div className='modal-footer'>
-                        <button>Live View</button>
-                        <button>Github</button>
+                        <p>Tools: {props.tools}</p>
+                        <button className="modalBtn">Live View</button>
+                        <button className="modalBtn">Github</button>
                     </div>
                 </div>
             </div>
