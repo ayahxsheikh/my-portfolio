@@ -14,7 +14,7 @@ function Home(){
         <p style={style.pText}>Hey, I'm Ayah</p>
         <p className="title">Frontend</p>
         <p className="title"> Web Developer</p> 
-        <p style={style.text}>I design and code immersive web applications</p>
+        <p style={style.text}>I code simple and beautiful web applications</p>
     </main>
 
     )

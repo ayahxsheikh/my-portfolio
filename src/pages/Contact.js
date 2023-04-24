@@ -48,7 +48,7 @@ function Contact(){
                         <FontAwesomeIcon icon="fas fa-user" className="icon"/>
                         <div className="text-info">
                             <h4 style={styles.p}>Name:</h4>
-                            <h4>A Sheikh</h4>
+                            <h4>Ayah Sheikh</h4>
                         </div>
                     </div> 
 
@@ -56,7 +56,7 @@ function Contact(){
                         <FontAwesomeIcon icon="fas fa-envelope" className="icon"/>
                         <div className="text-info">
                             <h4 style={styles.p}>Email:</h4>
-                            <h4>aaminah.xa@gmail.com</h4>
+                            <h4>ayahshayk@gmail.com</h4>
                         </div>
                     </div>
 
@@ -78,9 +78,9 @@ function Contact(){
                     <a href="https://instagram.com/"> 
                         <FontAwesomeIcon  icon="fa-brands fa-instagram" className="icon ig" size="lg" />
                     </a> 
-                    <a href="https://twitter.com/">
+                    {/* <a href="https://twitter.com/">
                         <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon tw" size="lg"/>
-                    </a> 
+                    </a>  */}
                     <a href="https://linkedin.com/"> 
                         <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icon in" size="lg"/>
                     </a> 
