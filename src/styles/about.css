@@ -13,21 +13,35 @@
     padding-top: 10%;
 }
 
-.my-info{
- margin-bottom: 7rem;
+.about-section{
+ margin-bottom: 10rem;
 }
 
-.techH3{
+.tools-title{
     margin-bottom: 2rem;
 }
 
 .html, .css, .js, .npm, .jquery, .git, .vs, .node, .github, .react{
     width: 100px;
     height: 100px;
-    margin: .5rem;
+    margin: 1.6rem;
 }
 
 .bootstrap{
     width: 120px;
     height: 100px;
+    margin-right: 1.6rem;
+}
+
+.techLogos1 {
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.techLogos2{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
