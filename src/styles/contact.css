@@ -25,25 +25,19 @@
 
     .contact-grid {
       display: grid;
-      grid-template-columns: 1.5fr 2fr;
-      grid-template-rows: 1fr 1 / 4 fr;
+      grid-template-columns: 1.5fr 1fr;
+      grid-template-rows: 1fr;
       margin: 2rem auto;
-      /* background-color: #6a68681c; */
-      background-color: #ffffffaf;
+      background-color: #6a68681c;
+      /* background-color: #ffffffaf; */
       border-radius: 20px;
       padding: 7% 1%;
-      /* grid-template-areas: '#icons #contact'
-      'idk #contact'; */
     }
     
     .contact-info {
-      display: flex;
+      /* display: flex;
       flex-direction: column;
-      /* align-items:center; */
-      gap: 1.9rem;
-      /* grid-area: '#icon'; */
-      /* margin: 2rem auto; */
-      margin-left:2rem;
+      gap: 1.9rem; */
       color: #717577;
     }
   
@@ -51,11 +45,11 @@
       display: flex;
       flex-wrap:wrap;
       justify-content: start;
-      gap: 5%;
-      padding: 9%;
+      padding: 7%;
       max-width: 80%;
+      margin: 2rem auto;
       /* background-color: #f1e6f1ee; */
-      border-radius: 20px;
+      border-radius: 16px;
     }
 
     .text-info {
@@ -67,9 +61,9 @@
       flex-direction: column;
       align-items: center;
       /* margin: 0rem auto;  */
-      margin-left: 4rem;
-      width: 80%; 
-      max-width: 600px; 
+      margin-left: 2rem; 
+      width: 90%; 
+      /* max-width: 600px;  */
       background-color: #dadadaec;
       /* background-color: #e6e6e6ee; */
       border-radius: 20px;
@@ -81,7 +75,7 @@
       width: 90%; 
       margin: 1rem auto; 
       padding-top: 4%;
-      max-width: 450px; 
+      max-width: 500px; 
     }
 
     form :not(:last-child) {
@@ -149,4 +143,48 @@
 
   .text3 {
     background-color: #d8dec9ee;
+  } */
+
+
+
+   @media only screen and (max-width: 830px){
+
+    .contactBg{
+      min-height: 160vh;
+      min-width: 80vw;
+      }
+
+    .contact-grid {
+      grid-template-columns: 1fr;
+      /* margin: 0rem; */
+    }
+    
+    .form-bg{
+        margin: 0 auto;
+        width: 65%;
+        margin-bottom: 2rem;
+      }
+
+    .contact-info{
+      align-self: center;
+    }
+
+    .contact-text{
+      max-width: 55%;
+      padding: 3.5%;
+      margin: 1rem auto;
+  
+    }
+
+  }
+ 
+  /* @media only screen and (min-width: 500px){ 
+    .contactBg{
+      min-height: 110vh;
+      min-width: 80vw;
+      }
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
   } */

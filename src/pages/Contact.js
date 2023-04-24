@@ -32,6 +32,16 @@ function Contact(){
                     <h3 style={styles.h3}>Drop me an email or fill out the form below. I look forward to hearing from you</h3>
             <section className="contact-grid">
 
+            <div className="form-bg" id="contact">
+                    <form onSubmit={handleSubmit} >
+                        <input type="text" placeholder="Name" />
+                        <input  placeholder="Email Address" />
+                        <textarea placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
+                        <button className="f-btn" >Submit</button>
+                    </form>
+                </div>
+            
+
                 <aside className="contact-info"> 
 
                    <div className="contact-text text1" style={styles.text1} >
@@ -58,16 +68,7 @@ function Contact(){
                         </div>
                     </div>
                 </aside>
-           
-                <div className="form-bg" id="contact">
-                    <form onSubmit={handleSubmit} >
-                        <input type="text" placeholder="Name" />
-                        <input  placeholder="Email Address" />
-                        <textarea placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
-                        <button className="f-btn" >Submit</button>
-                    </form>
-                </div>
-            </section>
+                </section>
 
                 <h3 style={styles.h3}>Connect with me on Socials</h3>
             <section className="icon-div">
