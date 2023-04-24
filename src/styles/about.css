@@ -21,7 +21,13 @@
     margin-bottom: 2rem;
 }
 
-.html, .css{
+.html, .css, .js, .npm, .jquery, .git, .vs, .node, .github, .react{
     width: 100px;
+    height: 100px;
+    margin: .5rem;
+}
+
+.bootstrap{
+    width: 120px;
     height: 100px;
 }
