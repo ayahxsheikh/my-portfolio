@@ -8,10 +8,20 @@
     max-width: 100vw;
 }
 
-/* .aboutWrapper{
-    margin: 0 auto;
-} */
+.aboutWrapper{
+    padding: 7%;
+    padding-top: 10%;
+}
 
-/* .my-info{
-    padding-top: 2rem;
-} */
+.my-info{
+ margin-bottom: 7rem;
+}
+
+.techH3{
+    margin-bottom: 2rem;
+}
+
+.html, .css{
+    width: 100px;
+    height: 100px;
+}
