@@ -27,7 +27,7 @@
       display: grid;
       grid-template-columns: 1.5fr 1fr;
       grid-template-rows: 1fr;
-      margin: 2rem auto;
+      margin: 2rem;
       background-color: #6a68681c;
       /* background-color: #ffffffaf; */
       border-radius: 20px;
