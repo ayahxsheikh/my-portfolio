@@ -17,7 +17,7 @@ function About(){
       
       <main className="aboutBg aboutWrapper">
 
-        <h2 className='about-title'>Get to Know Me</h2>
+        <h1 className='about-title'>Get to Know Me</h1>
         <section className="about-section">
         <h3 className="about-info"> A Front-end Web Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. Outside the world of coding I am an animal lover and enjoy painting.</h3>
 
@@ -25,7 +25,7 @@ function About(){
         </section>
 
         <section className="skills-section">
-            <h2 className="skills-title">Technologies and Tools</h2>
+            <h3 className="skills-title">Technologies and Tools</h3>
             <div className="techLogos1">
                 <figure>
                     <img className="html" src={htmlLogo} alt="html-logo" />
@@ -48,12 +48,11 @@ function About(){
                         <figcaption>React</figcaption>
                     </figure>
            
-
-            {/* <div className="techLogos2"> */}
                 {/* <figure>
                     <img className="vs" src={vsLogo} alt="vs-logo" />
                     <figcaption>VS Code</figcaption>
                 </figure> */}
+
                 <figure>
                     <img className="git" src={gitLogo} alt="git-logo" />
                     <figcaption>GIT</figcaption>
@@ -75,7 +74,6 @@ function About(){
                     <img className="bootstrap" src={btstrapLogo} alt="bootstrap-logo" />
                     <figcaption>Bootstrap</figcaption>
                 </figure>
-            {/* </div> */}
             </div>
         </section>
 

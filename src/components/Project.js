@@ -16,7 +16,7 @@ function Project(props){
                 <figure className="img-overlay">
                     <img className="proj-img" src={props.image} alt="title"/>
                     <figcaption>
-                        <p className="p-title">{}</p>
+                        <p className="p-title">{props.title}</p>
                     </figcaption>
                 </figure>
             </div>
