@@ -29,9 +29,9 @@ function Contact(){
         <>
         <main className="contactBg main-wrapper">
             <h1 className="contact-title">Let's Get in Touch</h1>
-                    <h3 style={styles.h3}>Drop me an email or fill out the form below. I look forward to hearing from you</h3>
-            <section className="contact-grid">
+            <h3 style={styles.h3}>Drop me an email or fill out the form below. I look forward to hearing from you</h3>
 
+            <section className="contact-grid">
             <div className="form-bg" id="contact">
                     <form onSubmit={handleSubmit} >
                         <input type="text" placeholder="Name" />
@@ -67,6 +67,7 @@ function Contact(){
                             <h4>London, UK</h4>
                         </div>
                     </div>
+
                 </aside>
                 </section>
 
@@ -78,9 +79,9 @@ function Contact(){
                     <a href="https://instagram.com/"> 
                         <FontAwesomeIcon  icon="fa-brands fa-instagram" className="icon ig" size="lg" />
                     </a> 
-                    {/* <a href="https://twitter.com/">
+                    <a href="https://twitter.com/">
                         <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon tw" size="lg"/>
-                    </a>  */}
+                    </a> 
                     <a href="https://linkedin.com/"> 
                         <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icon in" size="lg"/>
                     </a> 

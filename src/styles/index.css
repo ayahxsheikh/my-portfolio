@@ -1,6 +1,9 @@
 :root {
   --header: #f0dbdbad;
-  --text: #635454;
+  --navtext: #635454;
+  --headings: #484c55;
+  --text: #665e5e;
+
 }
 
 /* RESETS */
@@ -28,12 +31,12 @@ body, html, #root {
 
   header {
     background-color: var(--header);
-    color: var(--text);
+    color: var(--navtext);
     padding: 2% 3%;
   }
 
   nav a {
-    color: var(--text);
+    color: var(--navtext);
     font-size: 16px;
     text-decoration: none;
   }
