@@ -1,15 +1,15 @@
 import '../styles/about.css'
-import cssLogo from '../assets/cssLogo.jpg'
-import htmlLogo from '../assets/htmlLogo.jpg'
-import jsLogo from '../assets/jsLogo.jpg'
-import btstrapLogo from '../assets/btstrapLogo.jpg'
-import jqueryLogo from '../assets/jqueryLogo.jpg'
-import gitLogo from '../assets/gitLogo.jpg'
-import vsLogo from '../assets/vsLogo.jpg'
-import nodejsLogo from '../assets/nodejsLogo.png'
-import npmLogo from '../assets/npmLogo.jpg'
-import githubLogo from '../assets/githubLogo.jpg'
-import reactLogo from '../assets/reactLogo.jpg'
+import cssLogo from '../assets/logos/cssLogo.jpg'
+import htmlLogo from '../assets/logos/htmlLogo.jpg'
+import jsLogo from '../assets/logos/jsLogo.jpg'
+import btstrapLogo from '../assets/logos/btstrapLogo.jpg'
+import jqueryLogo from '../assets/logos/jqueryLogo.jpg'
+import gitLogo from '../assets/logos/gitLogo.jpg'
+import vsLogo from '../assets/logos/vsLogo.jpg'
+import nodejsLogo from '../assets/logos/nodejsLogo.png'
+import npmLogo from '../assets/logos/npmLogo.jpg'
+import githubLogo from '../assets/logos/githubLogo.jpg'
+import reactLogo from '../assets/logos/reactLogo.jpg'
 
 
 function About(){
@@ -79,7 +79,9 @@ function About(){
 
         <div className="cv-sec">
                     <h3>Alternatively you can download my resume</h3>
-                    <button className="cvBtn">Download my CV</button>
+                    <a href="assets/cv/mycv.pdf" download="Ayah Sheikh CV">
+                        <button className="cvBtn">Download my CV</button>
+                    </a>
                 </div>
 
       </main>

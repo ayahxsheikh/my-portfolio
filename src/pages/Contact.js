@@ -32,7 +32,7 @@ function Contact(){
             <h3 style={styles.h3}>Drop me an email or fill out the form below. I look forward to hearing from you</h3>
 
             <section className="contact-grid">
-            <div className="form-bg" id="contact">
+                <div className="form-bg" id="contact">
                     <form onSubmit={handleSubmit} >
                         <input type="text" placeholder="Name" />
                         <input  placeholder="Email Address" />
@@ -40,10 +40,8 @@ function Contact(){
                         <button className="f-btn" >Submit</button>
                     </form>
                 </div>
-            
 
                 <aside className="contact-info"> 
-
                    <div className="contact-text text1" style={styles.text1} >
                         <FontAwesomeIcon icon="fas fa-user" className="icon"/>
                         <div className="text-info">
@@ -67,10 +65,26 @@ function Contact(){
                             <h4>London, UK</h4>
                         </div>
                     </div>
-
                 </aside>
-                </section>
-        </main>
+            </section>
+            <div className="connect-div">
+                    <h3 style={styles.h3}>Connect with me on Socials</h3>
+                    <section className="icon-div">
+                        <a href="https://instagram.com/"> 
+                            <FontAwesomeIcon  icon="fa-brands fa-instagram" className="icon ig" size="lg" />
+                        </a> 
+                        <a href="https://github.com/ayahxsheikh">
+                            <FontAwesomeIcon icon="fab fa-github" className="icon gh" size="lg"/>
+                        </a> 
+                        {/* <a href="https://twitter.com/">
+                            <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon tw" size="lg"/>
+                        </a>  */}
+                        <a href="https://linkedin.com/"> 
+                            <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icon in" size="lg"/>
+                        </a> 
+                    </section> 
+                </div>  
+     </main>
         </>
     )
 }
