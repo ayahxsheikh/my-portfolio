@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Footer(){
     return (
         <footer>
-            {/* <p><a href="https://www.freepik.com/free-vector/collection-designer-work_5030709.htm#&position=0&from_view=undefined">Image by pikisuperstar</a> on Freepik</p> */}
 
                 <h3>Connect with me on Socials</h3>
                 <section className="icon-div">
@@ -20,6 +19,10 @@ function Footer(){
                             <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icon in" size="lg"/>
                         </a> 
                 </section> 
+                {/* <p className="p">
+                    <a href="https://www.freepik.com/free-vector/collection-designer-work_5030709.htm#&position=0&from_view=undefined"></a> 
+                    Image by pikisuperstar on Freepik
+                </p> */}
         </footer>
     )
 }
