@@ -7,7 +7,8 @@ const styles = {
         color: '#717577'
     },
     p: {
-        color: '#222121da'
+        color: '#222121da',
+        textDecoration: 'none'
     },
     text1: {
         backgroundColor: '#deeff2ee'
@@ -54,7 +55,9 @@ function Contact(){
                         <FontAwesomeIcon icon="fas fa-envelope" className="icon"/>
                         <div className="text-info">
                             <h4 style={styles.p}>Email:</h4>
-                            <h4>ayahshayk@gmail.com</h4>
+                            <h4>
+                                <a style={styles.p}href="ayahshayk@gmail.com">ayahshayk@gmail.com</a>
+                            </h4>
                         </div>
                     </div>
 
