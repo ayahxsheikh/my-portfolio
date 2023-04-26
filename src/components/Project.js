@@ -36,6 +36,7 @@ function Project(props){
                     transform: 'translate(-50%, -50%)',
                     backgroundColor: '#00000080',
                     padding: '0',
+                    borderRadius: '16px',
                     zIndex: '999'
                 },
                 overlay: {
@@ -46,8 +47,8 @@ function Project(props){
 
             <div className='modal'>
                 <div className='modal-content'>
-                    <div className="modal-header close-icon">
-                        <button onClick={closeModal}>Close</button>
+                    <div className="modal-header">
+                        <button className="close-icon" onClick={closeModal}>X</button>
                     </div>
                     <h2 className='modal-title'>{props.title}</h2>
                     <div className='modal-body'>
