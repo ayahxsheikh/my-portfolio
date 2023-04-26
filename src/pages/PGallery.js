@@ -20,6 +20,8 @@ function PGallery(){
         image={project.image}
         description={project.description}
         tools={project.tools}
+        github={project.github}
+        deployed={project.deployed}
         />
         ))}
        </section>

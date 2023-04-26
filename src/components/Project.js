@@ -56,8 +56,12 @@ function Project(props){
                         </div>
                     <div className='modal-footer'>
                         <p>Tools: {props.tools}</p>
-                        <button className="modalBtn">Live View</button>
-                        <button className="modalBtn">Github</button>
+                        <button onClick={() => {
+                            console.log("Deploy Clicked")
+                            window.location.href = props.deployed} } className="modalBtn">Live View</button>
+                        <button onClick={() => {
+                            console.log("Github Clicked")
+                            window.location.href = props.github}} className="modalBtn">Github</button>
                     </div>
                 </div>
             </div>
