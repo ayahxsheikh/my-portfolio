@@ -79,7 +79,7 @@ function About(){
 
         <div className="cv-sec">
                     <h3>Alternatively you can download my resume</h3>
-                    <a href="assets/cv/mycv.pdf" download="Ayah Sheikh CV">
+                    <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
                         <button className="cvBtn">Download my CV</button>
                     </a>
                 </div>
