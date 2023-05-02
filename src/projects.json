@@ -2,7 +2,7 @@
     {
         "title": "WeatherApp",
         "deployed": "https://ayahxsheikh.github.io/weather-app/",
-        "githib": "https://github.com/ayahxsheikh/weather-app",
+        "github": "https://github.com/ayahxsheikh/weather-app",
         "image": "assets/weatherApp.png",
         "description":"An app used to display current forecast of any city and its future forecast for the next 5 days",
         "tools": "API, jQuery, HTML, CSS, Moment"
@@ -10,15 +10,15 @@
     {
         "title": "Mindfull",
         "deployed": "https://mindfulmindful.netlify.app/",
-        "githib": "https://github.com/ayahxsheikh/MindfullnessApp",
+        "github": "https://github.com/ayahxsheikh/MindfullnessApp",
         "image": "assets/mindfull.png",
         "description":"Mobile-design app focusing on productivity and personal growth for a healthy and stress-free lifestyle",
         "tools": "Reactjs, CSS, NPM, FontAwesome"
     },
     {
         "title": "Team-Profile",
-        "deployed": "",
-        "githib": "https://github.com/ayahxsheikh/Team-Profile-Generator",
+        "deployed": "https://drive.google.com/file/d/1hiXSjBrqb_3HS1fAcgWWNX5TomRgXJQk/view",
+        "github": "https://github.com/ayahxsheikh/Team-Profile-Generator",
         "image": "assets/myteam.png",
         "description":"This app uses node.js to create a team of employees with a manager generated through command-line prompts",
         "tools": "Node.js, CSS"
@@ -26,7 +26,7 @@
     {
         "title": "Readme-Generator",
         "deployed": "https://drive.google.com/file/d/1qCjseXSa9IBvpBok3J_fpcBB4nAv5JC-/view",
-        "githib": "https://github.com/ayahxsheikh/readme-generator",
+        "github": "https://github.com/ayahxsheikh/readme-generator",
         "image": "assets/readme-gen.png",
         "description":"This command line application uses node.js to efficiently create a README.md file",
         "tools": "Node.js, JavaScript"
@@ -34,7 +34,7 @@
     {
         "title": "Work-Day Schedule",
         "deployed": "https://ayahxsheikh.github.io/work-schedule-app/",
-        "githib": "https://github.com/ayahxsheikh/work-schedule-app",
+        "github": "https://github.com/ayahxsheikh/work-schedule-app",
         "image": "assets/calendar-app.png",
         "description":"A simple application that allows users to save events/appoointments each hour in their work-day",
         "tools": "jQuery, HTML, CSS, Moment"
@@ -42,7 +42,7 @@
     {
         "title": "MusiXTube",
         "deployed": "https://zaitken1.github.io/music-app/",
-        "githib": "https://github.com/zaitken1/music-app",
+        "github": "https://github.com/zaitken1/music-app",
         "image": "assets/musixTube.png",
         "description":"This app allows music lovers to search for artist and play their favourite songs using YouTube API",
         "tools": "API, jQuery, HTML, CSS, JavaScript"
