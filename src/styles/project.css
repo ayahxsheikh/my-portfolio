@@ -55,6 +55,7 @@
     font-size: 20px;
     font-weight: bolder;
     color: #5e5b5b;
+    margin-top: .5rem;
   }
 
   /* MODAL STYLES */
@@ -128,7 +129,7 @@
     @media only screen and (min-width: 400px) {
  
       .projectBg {
-        min-height: 300vh;
+        min-height: 280vh;
         width: 100vw;
         }
 
@@ -146,12 +147,13 @@
         display: grid;
         grid-template-columns: 1fr; 
         max-width: fit-content;
-        row-gap: 2%;
+        padding: 5% 0;
+        row-gap: 1%;
         }
 
         .proj-img{
-          height: 230px;
-          width: 330px;
+          height: 210px;
+          width: 310px;
           max-height: 100%;
         }
     }
@@ -167,6 +169,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr; 
         max-width: fit-content;
+        padding: 6% 0;
         margin: .5 auto;
         gap: 4% 7%;
       }
@@ -188,6 +191,7 @@
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: 1fr 1fr; 
+          padding: 4% 0%;
           gap: 0 3%;
         }
         .proj-img{
