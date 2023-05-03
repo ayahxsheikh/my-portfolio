@@ -18,7 +18,7 @@ library.add(fab, fas)
 function App() {
 
   return (
-    < >
+    <div className="appContainer" >
 
     <Header />
 
@@ -30,7 +30,7 @@ function App() {
     </Routes>
 
     <Footer />
-    </>
+    </div>
   );
 }
 

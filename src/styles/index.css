@@ -4,6 +4,10 @@
   --headings: #484c55;
   --text: #665e5e;
   --text1: #717577;
+  --btnText: #ffffff;
+  --btnBg:  #555050;
+  --modalText: #6e6b6b;
+  --modalBg: #fffffff7;
 
 }
 
@@ -59,10 +63,14 @@
     text-decoration: underline;
   }
 
+  .appContainer {
+    position: relative;
+    min-height: 100%;
+  }
+
   /* Home-page Styles */
 
   .mainBg{
-    position: relative;
     background-image: url("/public/assets/bgImg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
