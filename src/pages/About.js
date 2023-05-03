@@ -11,7 +11,7 @@ import npmLogo from '../assets/logos/npmLogo.jpg'
 import githubLogo from '../assets/logos/githubLogo.jpg'
 import reactLogo from '../assets/logos/reactLogo.jpg'
 
-import test1 from '../assets/test1.png'
+import test1 from '../assets/images/test1.png'
 
 function About(){
     return (
@@ -87,14 +87,6 @@ function About(){
                 </figure>
             </div>
         </section>
-
-        {/* <div className="cv-sec">
-                    <h3>Alternatively you can download my resume</h3>
-                    <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
-                        <button className="cvBtn">Download my CV</button>
-                    </a>
-                </div> */}
-
       </main>
       
     )
