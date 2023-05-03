@@ -1,4 +1,4 @@
-// import codegirl from '../assets/codegirl.jpg'
+// import codegirl from '../assets/test1.jpg'
 
 const style = {
     text: {

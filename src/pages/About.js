@@ -11,6 +11,7 @@ import npmLogo from '../assets/logos/npmLogo.jpg'
 import githubLogo from '../assets/logos/githubLogo.jpg'
 import reactLogo from '../assets/logos/reactLogo.jpg'
 
+import test1 from '../assets/test1.png'
 
 function About(){
     return (
@@ -19,13 +20,23 @@ function About(){
 
         <h1 className='about-title'>Get to Know Me</h1>
         <section className="about-section">
-        <h3 className="about-info"> A Front-end Web Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. Outside the world of coding I am an animal lover and enjoy painting.</h3>
+        <img className="about-img" src={test1} /> 
+        <div className="about-info"> 
+            <h3>Front-end Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. My passion for Front-end Web Development started with a desire to bring my creativity to life. I am continuing to learn and expand my skillset</h3>
+            <h3>Outside the world of coding I am an animal lover and enjoy painting.</h3>
+            <div className="cv-sec">
+                <h3 className='cv-title'>Find out more and download my resume</h3>
+                <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
+                    <button className="cvBtn">Download my CV</button>
+                </a>
+            </div>
+        </div>
 
-        <h3 className="about-img"> Adding Image Here</h3>
         </section>
 
+
         <section className="skills-section">
-            <h3 className="skills-title">Technologies and Tools</h3>
+            <h4 className="skills-title">Technologies and Tools</h4>
             <div className="techLogos1">
                 <figure>
                     <img className="html" src={htmlLogo} alt="html-logo" />
@@ -77,12 +88,12 @@ function About(){
             </div>
         </section>
 
-        <div className="cv-sec">
+        {/* <div className="cv-sec">
                     <h3>Alternatively you can download my resume</h3>
                     <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
                         <button className="cvBtn">Download my CV</button>
                     </a>
-                </div>
+                </div> */}
 
       </main>
       
