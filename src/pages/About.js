@@ -11,7 +11,7 @@ import npmLogo from '../assets/logos/npmLogo.jpg'
 import githubLogo from '../assets/logos/githubLogo.jpg'
 import reactLogo from '../assets/logos/reactLogo.jpg'
 
-import test1 from '../assets/images/test1.png'
+import girl2 from '../assets/images/girl2.png'
 
 function About(){
     return (
@@ -20,18 +20,17 @@ function About(){
 
         <h1 className='about-title'>Get to Know Me</h1>
         <section className="about-section">
-        <img className="about-img" src={test1} /> 
-        <div className="about-info"> 
-            <h3>Front-end Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. My passion for Front-end Web Development started with a desire to bring my creativity to life. I am continuing to learn and expand my skillset</h3>
-            <h3>Outside the world of coding I am an animal lover and enjoy painting.</h3>
-            <div className="cv-sec">
-                <h3 className='cv-title'>Find out more and download my resume</h3>
-                <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
-                    <button className="cvBtn">Download my CV</button>
-                </a>
+            <img className="about-img" src={girl2} /> 
+            <div className="about-info"> 
+                <h3>Front-end Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. My passion for Front-end Web Development started with a desire to bring my creativity to life. I am continuing to learn and expand my skillset</h3>
+                <h3>Outside the world of coding I am an animal lover and enjoy painting.</h3>
+                <div className="cv-sec">
+                    <h3 className='cv-title'>Find out more and download my resume</h3>
+                    <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
+                        <button className="cvBtn">Download my CV</button>
+                    </a>
+                </div>
             </div>
-        </div>
-
         </section>
 
 
