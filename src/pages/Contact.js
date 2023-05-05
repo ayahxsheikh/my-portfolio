@@ -24,23 +24,24 @@ const styles = {
 
 function Contact(){
 
-    const handleSubmit = event => {
-        event.preventDefault();
-        console.log(formData);
-    }
-
-    [formData, setFormData] = useState ({
+    
+    const [formData, setFormData] = useState ({
         name: '',
         email: '',
         message: ''
     })
-
+    
     const handleChange = (event) => {
         setFormData({
             ...formData,
             [event.target.name]: event.target.value
         });
     };
+    
+    const handleSubmit = event => {
+        event.preventDefault();
+        console.log(formData);
+    }
 
     return (
         <>
