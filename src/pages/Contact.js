@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../styles/contact.css'
 
@@ -26,6 +27,15 @@ function Contact(){
     const handleSubmit = event => {
         event.preventDefault()
     }
+
+    [formData, setFormData] = useState ({
+        name: '',
+        email: '',
+        message: ''
+    })
+
+    // const handleChange = (event)
+
     return (
         <>
         <main className="contactBg main-wrapper">
@@ -35,9 +45,9 @@ function Contact(){
             <section className="contact-grid">
                 <div className="form-bg" id="contact">
                     <form onSubmit={handleSubmit} >
-                        <input type="text" placeholder="Name" />
-                        <input  placeholder="Email Address" />
-                        <textarea placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
+                        <input onChange={handleChange} type="text" placeholder="Name" />
+                        <input onChange={handleChange} placeholder="Email Address" />
+                        <textarea onChange={handleChange} placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
                         <button className="f-btn" >Submit</button>
                     </form>
                 </div>
