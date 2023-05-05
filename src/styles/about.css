@@ -45,7 +45,6 @@
     gap: 1.5rem;
     margin-top: 1.4rem;
     color: var(--text1);
-    text-align: center;
   }
 
   .cv-title{
@@ -53,13 +52,14 @@
   }
 
   .cvBtn{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 2.7%;
     color: #fff;
     border: none;
     cursor: pointer;
     width: 140px;
     border-radius: 7px;
+    font-family: 'Raleway';
     background-image: linear-gradient(to right, #ff3a99d9, #f85ca8,#e7644f);
 }
 
@@ -118,6 +118,10 @@
         max-width: 90%;
         margin: 0rem auto;
         text-align: justify;
+    }
+
+    .cv-sec{
+        text-align: center;
     }
 
     .cvBtn{

@@ -20,24 +20,23 @@ function Home() {
           <p className="m-title"> Developer</p>
           <p style={style.text}>I code simple and beautiful web applications</p>
           <button className="infoBtn">Read More</button>
+          <section className="socials-sec">
+                <div className="icons">
+                    <a href="https://instagram.com/">
+                        <FontAwesomeIcon icon="fa-brands fa-instagram" className="icons ig" size="xl" />
+                    </a>
+                    <a href="https://github.com/ayahxsheikh">
+                        <FontAwesomeIcon icon="fab fa-github" className="icons gh" size="xl"/>
+                    </a>
+                    <a href="https://linkedin.com/">
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icons in" size="xl" />
+                    </a>
+                </div>
+            </section>
         </section>
         <img src={girl1} className="girl1" alt="girl" />
       </div>
 
-      <section className="socials-sec">
-            {/* <button className="infoBtn">Read More</button> */}
-            <div className="icons">
-                <a href="https://instagram.com/">
-                    <FontAwesomeIcon icon="fa-brands fa-instagram" className="icons ig" size="lg"/>
-                </a>
-                <a href="https://github.com/ayahxsheikh">
-                    <FontAwesomeIcon icon="fab fa-github" className="icons gh" size="lg"/>
-                </a>
-                <a href="https://linkedin.com/">
-                    <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icons in" size="lg"/>
-                </a>
-            </div>
-      </section>
     </main>
   );
 }

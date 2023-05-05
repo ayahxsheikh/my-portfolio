@@ -69,7 +69,7 @@
     
     .f-btn {
       padding: 2%;
-      color: #fff;
+      color:var(--btnText);
       border: none;
       cursor: pointer;
       margin: 1rem auto;
@@ -117,24 +117,27 @@
     justify-content: center;
     margin: .2rem auto;
     text-align: center;
-    padding:.3% 0%;
+    padding:1% 0%;
   }
 
-  .gh {
+  .c-gh {
     color: #3f3d3d;
   }
   
-  
-  .ig {
+  .c-ig {
     color: #7a289b;
   }
   
-  .tw {
-    color: #00b3ff;
-  }
-  
-  .in {
+  .c-in {
     color: #404ab2;
+  }
+
+  .c-in, .c-ig, .c-gh {
+    background-color: #e3e9ee;
+    padding: 6px;
+    border-radius: 20px;
+    height: 25px;
+    width: 27px;
   }
   
 
@@ -178,7 +181,10 @@
       max-width: 55%;
       padding: 3.5%;
       margin: 1rem auto;
-  
+    }
+
+    .icon-div{
+      padding:2% 0%;
     }
 
   }
