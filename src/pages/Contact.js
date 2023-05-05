@@ -28,7 +28,8 @@ function Contact(){
     const [formData, setFormData] = useState ({
         name: '',
         email: '',
-        message: ''
+        message: '',
+        access_key: '8c961c20-8c8c-41f8-9d52-eecd317a5884'
     })
     
     const handleChange = (event) => {
@@ -37,10 +38,23 @@ function Contact(){
             [event.target.name]: event.target.value
         });
     };
-    
+
     const handleSubmit = event => {
         event.preventDefault();
-        console.log(formData);
+
+        const data = JSON.stringify(formData);
+        
+          fetch('https://api.web3forms.com/submit', {
+                  method: 'POST',
+                  headers: {
+                      'Content-Type': 'application/json',
+                      'Accept': 'application/json'
+                  },
+                  body: data
+              })
+              .then(res => res.json())
+              .then(data => console.log(data))
+              .catch(err => console.log(err))
     }
 
     return (
