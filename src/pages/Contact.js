@@ -24,7 +24,7 @@ const styles = {
 
 function Contact(){
 
-    
+    const [success, setSuccess] = useState(false)
     const [formData, setFormData] = useState ({
         name: '',
         email: '',
@@ -43,7 +43,7 @@ function Contact(){
         event.preventDefault();
 
         const data = JSON.stringify(formData);
-        
+
           fetch('https://api.web3forms.com/submit', {
                   method: 'POST',
                   headers: {
@@ -53,7 +53,13 @@ function Contact(){
                   body: data
               })
               .then(res => res.json())
-              .then(data => console.log(data))
+              .then(data => {
+                setSuccess(true);
+
+                setTimeout(() => {
+                    setSuccess(false);
+                }, 3000);
+            })
               .catch(err => console.log(err))
     }
 
@@ -71,6 +77,7 @@ function Contact(){
                         <textarea name="message" onChange={handleChange} placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
                         <button className="f-btn" >Submit</button>
                     </form>
+                    {success && <p style={styles.p}>Form Submitted Successfully!</p>}
                 </div>
 
                 <aside className="contact-info"> 
