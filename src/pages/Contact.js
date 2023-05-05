@@ -25,7 +25,8 @@ const styles = {
 function Contact(){
 
     const handleSubmit = event => {
-        event.preventDefault()
+        event.preventDefault();
+        console.log(formData);
     }
 
     [formData, setFormData] = useState ({
@@ -34,7 +35,12 @@ function Contact(){
         message: ''
     })
 
-    // const handleChange = (event)
+    const handleChange = (event) => {
+        setFormData({
+            ...formData,
+            [event.target.name]: event.target.value
+        });
+    };
 
     return (
         <>
@@ -45,9 +51,9 @@ function Contact(){
             <section className="contact-grid">
                 <div className="form-bg" id="contact">
                     <form onSubmit={handleSubmit} >
-                        <input onChange={handleChange} type="text" placeholder="Name" />
-                        <input onChange={handleChange} placeholder="Email Address" />
-                        <textarea onChange={handleChange} placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
+                        <input name="name" onChange={handleChange} type="text" placeholder="Name" />
+                        <input name="email" onChange={handleChange} placeholder="Email Address" />
+                        <textarea name="message" onChange={handleChange} placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
                         <button className="f-btn" >Submit</button>
                     </form>
                 </div>
