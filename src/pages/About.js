@@ -27,7 +27,7 @@ function About(){
                 <div className="cv-sec">
                     <h3 className='cv-title'>Find out more and download my resume</h3>
                     <a href="assets/cv/Resume.pdf" download="Ayah Sheikh CV">
-                        <button className="cvBtn">Download my CV</button>
+                        <button className="cvBtn">Download My CV</button>
                     </a>
                 </div>
             </div>

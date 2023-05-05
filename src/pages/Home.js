@@ -16,10 +16,11 @@ function Home() {
         <section className="title-sec">
           <p style={style.pText}>Hi, I'm Ayah</p>
           <p className="m-title">Frontend</p>
-          {/* <p className="m-title"> Web</p>  */}
           <p className="m-title"> Developer</p>
           <p style={style.text}>I code simple and beautiful web applications</p>
-          <button className="infoBtn">Read More</button>
+          <a href="/about">
+            <button className="infoBtn">Read More</button>
+          </a>
           <section className="socials-sec">
                 <div className="icons">
                     <a href="https://instagram.com/">

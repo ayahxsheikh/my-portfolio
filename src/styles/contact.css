@@ -75,6 +75,8 @@
       margin: 1rem auto;
       width: 160px;
       border-radius: 7px;
+      font-family: 'Raleway';
+      font-weight: bold;
       background-image: linear-gradient(to right, #ff3a99d9, #f85ca8,#e7644f);
   }
   

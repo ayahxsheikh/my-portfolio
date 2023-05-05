@@ -109,6 +109,8 @@
     background-color:var(--btnBg);
     color: var(--btnText);
     cursor: pointer;
+    font-family: 'Raleway';
+    font-weight: bold;
   }
 
   .modalBtn:hover {
