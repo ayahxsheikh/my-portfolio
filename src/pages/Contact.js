@@ -55,6 +55,12 @@ function Contact(){
               .then(res => res.json())
               .then(data => {
                 setSuccess(true);
+                setFormData({
+                    ...formData,
+                    name: '',
+                    email: '',
+                    message: '',
+                })
 
                 setTimeout(() => {
                     setSuccess(false);
@@ -72,9 +78,20 @@ function Contact(){
             <section className="contact-grid">
                 <div className="form-bg" id="contact">
                     <form onSubmit={handleSubmit} >
-                        <input name="name" onChange={handleChange} type="text" placeholder="Name" />
-                        <input name="email" onChange={handleChange} placeholder="Email Address" />
-                        <textarea name="message" onChange={handleChange} placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
+                        <input name="name" 
+                            onChange={handleChange} 
+                            value={formData.name} 
+                            type="text" placeholder="Name" />
+                        <input 
+                            name="email" 
+                            value={formData.email}
+                            onChange={handleChange} 
+                            placeholder="Email Address" />
+                        <textarea 
+                            name="message" 
+                            value={formData.message}
+                            onChange={handleChange} 
+                            placeholder="Enter Your Message" cols="30" rows="10" ></textarea>
                         <button className="f-btn" >Submit</button>
                     </form>
                     {success && <p style={styles.p}>Form Submitted Successfully!</p>}
