@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.6f8ec0bf.css",
+    "main.js": "/my-portfolio/static/js/main.477f48de.js",
+    "static/media/girl2.png": "/my-portfolio/static/media/girl2.302f0439843788ebccbe.png",
+    "static/media/codegirl.png": "/my-portfolio/static/media/codegirl.c7a4223773cc5d5d9340.png",
+    "static/media/btstrapLogo.jpg": "/my-portfolio/static/media/btstrapLogo.20b9bced2f068835eb4e.jpg",
+    "static/media/nodejsLogo.png": "/my-portfolio/static/media/nodejsLogo.e328955d6bbbf3ebc72b.png",
+    "static/media/vsLogo.jpg": "/my-portfolio/static/media/vsLogo.f514750441683c341ace.jpg",
+    "static/media/bgImg.png": "/my-portfolio/static/media/bgImg.60e1838aee61f528771c.png",
+    "static/media/jqueryLogo.jpg": "/my-portfolio/static/media/jqueryLogo.fba8c0e330ea3c53622a.jpg",
+    "static/media/reactLogo.jpg": "/my-portfolio/static/media/reactLogo.2a0cac33f155e4a27216.jpg",
+    "static/media/cssLogo.jpg": "/my-portfolio/static/media/cssLogo.463e319bad8e0edf1ef7.jpg",
+    "static/media/jsLogo.jpg": "/my-portfolio/static/media/jsLogo.3dfb665e058d08c99f28.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.6f8ec0bf.css.map": "/my-portfolio/static/css/main.6f8ec0bf.css.map",
+    "main.477f48de.js.map": "/my-portfolio/static/js/main.477f48de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f8ec0bf.css",
+    "static/js/main.477f48de.js"
+  ]
+}
