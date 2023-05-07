@@ -10,6 +10,7 @@
   --modalBg: #fffffff7;
   --iconColor: #f8fafc;
   --iconBg:  #dae0ea;
+  --footer: #c8c1c1;
 
 }
 
@@ -126,6 +127,10 @@
     color: var(--text1);
     margin-bottom: 0px;
   }
+
+  .a{
+    text-decoration: none;
+  }
   
   .infoBtn{
     margin-top: 1.7rem;
@@ -163,6 +168,11 @@
     width: 22px;
   }
 
+  .ig:hover, .in:hover, .gh:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-out;
+  }
+
   /* FOOTER */
 
   .footer{
@@ -180,7 +190,7 @@
   }
   
   .freepik{
-    color: var(--text1);
+    color: var(--footer);
     padding-bottom: 1%;
     font-size: 12px;
   }

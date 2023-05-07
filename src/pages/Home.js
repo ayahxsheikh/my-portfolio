@@ -13,13 +13,12 @@ function Home() {
   return (
     <main className="mainBg mainWrapper">
       <div className="mainContent">
-      {/* <img src={codegirl} className="codegirl" alt="girl" /> */}
         <section className="title-sec">
           <p style={style.pText}>Hi, I'm Ayah</p>
           <p className="m-title">Frontend</p>
           <p className="m-title"> Developer</p>
           <p style={style.text}>I code simple and beautiful web applications</p>
-          <a href="/about">
+          <a className="a" href="/about">
             <button className="infoBtn">Read More</button>
           </a>
           <section className="socials-sec">
