@@ -1,4 +1,4 @@
-import girl1 from "../assets/images/girl1.png";
+import codegirl from "../assets/images/codegirl.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const style = {
@@ -13,6 +13,7 @@ function Home() {
   return (
     <main className="mainBg mainWrapper">
       <div className="mainContent">
+      {/* <img src={codegirl} className="codegirl" alt="girl" /> */}
         <section className="title-sec">
           <p style={style.pText}>Hi, I'm Ayah</p>
           <p className="m-title">Frontend</p>
@@ -35,7 +36,7 @@ function Home() {
                 </div>
             </section>
         </section>
-        <img src={girl1} className="girl1" alt="girl" />
+        <img src={codegirl} className="codegirl" alt="girl" />
       </div>
 
     </main>
