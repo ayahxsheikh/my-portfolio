@@ -5,7 +5,6 @@ import jsLogo from '../assets/logos/jsLogo.jpg'
 import btstrapLogo from '../assets/logos/btstrapLogo.jpg'
 import jqueryLogo from '../assets/logos/jqueryLogo.jpg'
 import gitLogo from '../assets/logos/gitLogo.jpg'
-import vsLogo from '../assets/logos/vsLogo.jpg'
 import nodejsLogo from '../assets/logos/nodejsLogo.png'
 import npmLogo from '../assets/logos/npmLogo.jpg'
 import githubLogo from '../assets/logos/githubLogo.jpg'
@@ -20,7 +19,7 @@ function About(){
 
         <h1 className='about-title'>Get to Know Me</h1>
         <section className="about-section">
-            <img className="about-img" src={girl2} /> 
+            <img className="about-img" src={girl2} alt="girl"/> 
             <div className="about-info"> 
                 <h3>Front-end Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. My passion for Front-end Web Development started with a desire to bring my creativity to life. I am continuing to learn and expand my skillset</h3>
                 <h3>Outside the world of coding I am an animal lover and enjoy painting.</h3>
@@ -57,12 +56,6 @@ function About(){
                         <img className="react" src={reactLogo} alt="react-logo" />
                         <figcaption>React</figcaption>
                     </figure>
-           
-                {/* <figure>
-                    <img className="vs" src={vsLogo} alt="vs-logo" />
-                    <figcaption>VS Code</figcaption>
-                </figure> */}
-
                 <figure>
                     <img className="git" src={gitLogo} alt="git-logo" />
                     <figcaption>GIT</figcaption>

@@ -193,6 +193,7 @@
     color: var(--footer);
     padding-bottom: 1%;
     font-size: 12px;
+    text-decoration: none;
   }
 
   @media only screen and (max-width: 1020px){
