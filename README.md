@@ -29,7 +29,7 @@ This application is covered under the: MIT License
 
 
 ## Link
- [View Deployement Here](https://ayahxsheikh.github.io/my-portfolio)
+ [View Deployement Here](https://ayahxsheikh.netlify.app)
   
 ---
 
