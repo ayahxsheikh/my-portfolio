@@ -23,13 +23,13 @@ function Home() {
           </a>
           <section className="socials-sec">
                 <div className="icons">
-                    <a href="https://instagram.com/">
+                    <a href="https://www.instagram.com/sheikayax/">
                         <FontAwesomeIcon icon="fa-brands fa-instagram" className="icons ig" size="xl" />
                     </a>
                     <a href="https://github.com/ayahxsheikh">
                         <FontAwesomeIcon icon="fab fa-github" className="icons gh" size="xl"/>
                     </a>
-                    <a href="https://linkedin.com/">
+                    <a href="https://www.linkedin.com/in/ayah-sheikh-22942b216/">
                         <FontAwesomeIcon icon="fa-brands fa-linkedin-in" className="icons in" size="xl" />
                     </a>
                 </div>
