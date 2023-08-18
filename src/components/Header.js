@@ -7,7 +7,7 @@ function Header(){
             <NavLink className="logo" to="/">AS</NavLink>
             </div>
             <nav>
-            <NavLink to="/" >Home</NavLink>
+            <NavLink to="#/home" >Home</NavLink>
             <NavLink to="/about" >About</NavLink>
             <NavLink to="/project-gallery" >Projects</NavLink>
             <NavLink to="/contact">Contact</NavLink>

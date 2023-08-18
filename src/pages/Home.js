@@ -18,9 +18,10 @@ function Home() {
           <p className="m-title">Frontend</p>
           <p className="m-title"> Developer</p>
           <p style={style.text}>I code simple and beautiful web applications</p>
-          <a className="a" href="/about">
+          <a href="#/about">
             <button className="infoBtn">Read More</button>
           </a>
+          
           <section className="socials-sec">
                 <div className="icons">
                     <a href="https://www.instagram.com/sheikayax/">
