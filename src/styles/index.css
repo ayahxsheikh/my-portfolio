@@ -1,16 +1,19 @@
 :root {
   --header: #f0dbdbad;
+  --headerBg: #2c2b2b;
   --navtext: #635454;
   --headings: #484c55;
-  --text: #665e5e;
-  --text1: #717577;
+  --text: #adc0cf;
+  --text1: #b5b7b8;
   --btnText: #ffffff;
   --btnBg:  #555050;
   --modalText: #6e6b6b;
   --modalBg: #fffffff7;
   --iconColor: #f8fafc;
-  --iconBg:  #dae0ea;
+  --iconText: #ffff;
+  --iconBg:  #9099a9;
   --footer: #c8c1c1;
+  --blackBg: #171515dd;
 
 }
 
@@ -74,13 +77,14 @@
   /* Home-page Styles */
 
   .mainBg{
-    background-image: url("/public/assets/bgImg.png");
+    /* background-image: url("/public/assets/bgImg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 77vh;
-    max-width: 100vw;
+    max-width: 100vw; */
+    height: 100vh;
+    background-color: var(--blackBg);
     }
 
   .mainWrapper{
@@ -140,7 +144,7 @@
     width: 140px;
     border-radius: 7px;
     background-image: linear-gradient(to right, #f8c4e1ef,  #edd7c1);
-    color: var(--btnText);
+    /* color: var(--btnText); */
     font-family: 'Raleway';
     font-weight: bold;
   }
@@ -171,6 +175,10 @@
   .ig:hover, .in:hover, .gh:hover {
     transform: scale(1.2);
     transition: transform 0.2s ease-out;
+  }
+
+  .iconText{
+    color: var(--iconText);
   }
 
   /* FOOTER */

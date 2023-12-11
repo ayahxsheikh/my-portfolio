@@ -126,7 +126,7 @@ function Contact(){
                 </aside>
             </section>
             <div className="connect-div">
-                    <h3 style={styles.h3}>Connect with me on Socials</h3>
+                    <h2 style={styles.h3}>Connect with me on Socials</h2>
                     <section className="icon-div">
                         <a href="https://instagram.com/"> 
                             <FontAwesomeIcon  icon="fa-brands fa-instagram" className="icon c-ig" />

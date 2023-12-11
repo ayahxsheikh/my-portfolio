@@ -38,44 +38,44 @@ function About(){
             <div className="techLogos1">
                 <figure>
                     <img className="html" src={htmlLogo} alt="html-logo" />
-                    <figcaption>HTML</figcaption>
+                    <figcaption className="iconText">HTML</figcaption>
                 </figure>
                 <figure>
                     <img className="css" src={cssLogo} alt="css-logo" />
-                    <figcaption>CSS</figcaption>
+                    <figcaption className="iconText">CSS</figcaption>
                 </figure>
                 <figure>
                     <img className="js" src={jsLogo} alt="js-logo" />
-                    <figcaption>JavaScript</figcaption>
+                    <figcaption className="iconText">JavaScript</figcaption>
                 </figure>
                 <figure>
                     <img className="jquery" src={jqueryLogo} alt="jq-logo" />
-                    <figcaption>jQeury</figcaption>
+                    <figcaption className="iconText">jQeury</figcaption>
                 </figure>
                 <figure>
                         <img className="react" src={reactLogo} alt="react-logo" />
-                        <figcaption>React</figcaption>
+                        <figcaption className="iconText">React</figcaption>
                     </figure>
                 <figure>
                     <img className="git" src={gitLogo} alt="git-logo" />
-                    <figcaption>GIT</figcaption>
+                    <figcaption className="iconText">GIT</figcaption>
                 </figure>
                 <figure>
                     <img className="npm" src={npmLogo} alt="npm-logo" />
-                    <figcaption>NPM</figcaption>
+                    <figcaption className="iconText">NPM</figcaption>
                 </figure>
                 <figure>
                     <img className="node" src={nodejsLogo} alt="node-logo" />
-                    <figcaption>NodeJS</figcaption>
+                    <figcaption className="iconText">NodeJS</figcaption>
                 </figure>
                 <figure>
                     <img className="github" src={githubLogo} alt="github-logo" />
-                    <figcaption>GitHub</figcaption>
+                    <figcaption className="iconText">GitHub</figcaption>
                 </figure>
                   
                 <figure>
                     <img className="bootstrap" src={btstrapLogo} alt="bootstrap-logo" />
-                    <figcaption>Bootstrap</figcaption>
+                    <figcaption className="iconText">Bootstrap</figcaption>
                 </figure>
             </div>
         </section>
