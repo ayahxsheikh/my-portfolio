@@ -10,11 +10,10 @@
     }
 
 .portfolio-title {
-  font-size: 44px;
   text-align: center;
   padding-top: 2.5rem;
   padding-bottom: .5rem;
-  color: var(--text);
+  color: var(--headings);
 }
 
 .project-grid {
@@ -155,10 +154,6 @@
     }
 
     @media only screen and (max-width: 729px){
-      /* .projectBg{
-        min-height: 260vh;
-        max-width: 100vw;
-        } */
 
         .project-grid {
           display: grid;

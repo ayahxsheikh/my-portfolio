@@ -17,7 +17,7 @@ function Home() {
           <p style={style.pText}>Hi, I'm Ayah</p>
           <p className="m-title">Frontend</p>
           <p className="m-title"> Developer</p>
-          <p style={style.text}>I code simple and beautiful web applications</p>
+          <p style={style.text}>simplisticly user friendly</p>
           <a href="#/about">
             <button className="infoBtn">Read More</button>
           </a>
