@@ -1,19 +1,10 @@
 .contactBg {
-    /* background-image: url("/public/assets/bgImg.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover; */
-    height: 130vh;
-    max-width: 100vw;
     background-color: var(--blackBg);
     }
   
     .main-wrapper {
-      position: relative;
       padding-top: 6rem;
       padding-bottom: 3rem;
-      /* min-height: calc(100vh - 5rem); */
     }
 
     .contact-title {
@@ -21,6 +12,11 @@
       margin-top: -50px;
       margin-bottom: 2rem;
       color: var(--text);
+    }
+
+    .sub-heading{
+      color: var(--text1);
+      text-align: center;
     }
 
     .contact-grid {
@@ -159,11 +155,6 @@
 
 
    @media only screen and (max-width: 830px){
-
-    .contactBg{
-      min-height: 150vh;
-      min-width: 80vw;
-      }
 
     .contact-grid {
       grid-template-columns: 1fr;

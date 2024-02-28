@@ -3,10 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../styles/contact.css'
 
 const styles = {
-    h3: {
-        textAlign: 'center',
-        color: '#717577'
-    },
     p: {
         color: '#222121da',
         textDecoration: 'none'
@@ -73,7 +69,7 @@ function Contact(){
         <>
         <main className="contactBg main-wrapper">
             <h1 className="contact-title">Let's Get in Touch</h1>
-            <h3 style={styles.h3}>Drop me an email or fill out the form below. I look forward to hearing from you</h3>
+            <h3 className="sub-heading">Drop me an email or fill out the form below. I look forward to hearing from you</h3>
 
             <section className="contact-grid">
                 <div className="form-bg" id="contact">
@@ -126,7 +122,7 @@ function Contact(){
                 </aside>
             </section>
             <div className="connect-div">
-                    <h2 style={styles.h3}>Connect with me on Socials</h2>
+                    <h2 className="sub-heading">Connect with me on Socials</h2>
                     <section className="icon-div">
                         <a href="https://instagram.com/"> 
                             <FontAwesomeIcon  icon="fa-brands fa-instagram" className="icon c-ig" />
