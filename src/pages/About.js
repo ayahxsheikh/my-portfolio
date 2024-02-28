@@ -21,12 +21,14 @@ function About(){
         <section className="about-section">
             <img className="about-img" src={girl2} alt="girl"/> 
             <div className="about-info"> 
-                <h3>Front-end Developer with a background in Politics and International Relations bringing a unique and detal-oritentated perspective to create websites. My passion for Front-end Web Development started with a desire to bring my creativity to life. I am continuing to learn and expand my skillset</h3>
-                <h3>Outside the world of coding I am an animal lover and enjoy painting.</h3>
+                <h3>Expanding my skillset as a Front-end Developer with a background in Politics and International Relations.</h3>
+                <h3>My passion for Front-end Web Development started with a desire to bring my creativity to life.</h3>
+                <h3>I bring an enthusiastic and detailed perspective to create websites.</h3>
+                {/* <h3>Outside the world of coding I am an animal lover and enjoy painting.</h3> */}
                 <div className="cv-sec">
-                    <h3 className='cv-title'>Find out more and download my resume</h3>
+                    <h3 className='cv-title'>Find out more and download my cv</h3>
                     <a href="assets/cv/ASheikhCV.pdf" download="Ayah Sheikh CV">
-                        <button className="cvBtn">Download My CV</button>
+                        <button className="cvBtn">View CV</button>
                     </a>
                 </div>
             </div>

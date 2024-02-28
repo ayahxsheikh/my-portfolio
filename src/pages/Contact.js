@@ -70,7 +70,7 @@ function Contact(){
 
     return (
         <>
-        <main className="contactBg main-wrapper">
+        <main className="contactBg contact-wrapper">
             <h1 className="contact-title">Let's Get in Touch</h1>
             <h3 className="sub-heading">Drop me an email or fill out the form below. I look forward to hearing from you</h3>
 

@@ -4,12 +4,12 @@
 
 .aboutWrapper{
     flex: 1;
-    padding: 5%;
+    padding: 3.6% 4% 4% 4%;
 }
 
 .about-title{
     color: var(--headings);
-    margin-bottom: 2.6rem;
+    margin-bottom: 3.3rem;
     text-align: center;
 }
 
@@ -64,7 +64,7 @@
 
 .skills-title{
     margin-bottom: 3rem;
-    color: var(--text);
+    color: var(--text1);
     font-size: 22px;
 }
 
@@ -94,9 +94,9 @@
 
 @media only screen and (max-width: 830px){
 
-    /* .aboutBg{
-        min-height: 174vh;
-    } */
+    .about-title{
+        padding-top: 3%;
+    }
 
     .about-section{
         grid-template-columns: 1fr;
@@ -135,5 +135,26 @@
         grid-template-rows: 1fr;
         row-gap: 2.2rem;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .aboutWrapper{
+        padding: 2.6rem;
+    }
+    .about-img{
+        height: 260px;
+        width: 280px;
+    }
+    .cvBtn{
+        padding: 3.4%;
+    }
+    .html, .css, .js, .npm, .jquery, .git, .vs, .node, .github, .react{
+        width: 50px;
+        height: 50px;
+    }
+    .bootstrap{
+        width: 50px;
+        height: 40px;
     }
 }
