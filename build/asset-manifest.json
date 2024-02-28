@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7e9f8a8.css",
-    "main.js": "/static/js/main.5966384e.js",
+    "main.css": "/static/css/main.060bb0a1.css",
+    "main.js": "/static/js/main.0686656e.js",
     "static/media/girl2.png": "/static/media/girl2.302f0439843788ebccbe.png",
-    "static/media/codegirl.png": "/static/media/codegirl.c7a4223773cc5d5d9340.png",
+    "static/media/girlweb.png": "/static/media/girlweb.7ca0c4d890e2dd2e8e73.png",
     "static/media/btstrapLogo.jpg": "/static/media/btstrapLogo.20b9bced2f068835eb4e.jpg",
     "static/media/nodejsLogo.png": "/static/media/nodejsLogo.e328955d6bbbf3ebc72b.png",
-    "static/media/bgImg.png": "/static/media/bgImg.60e1838aee61f528771c.png",
     "static/media/jqueryLogo.jpg": "/static/media/jqueryLogo.fba8c0e330ea3c53622a.jpg",
     "static/media/reactLogo.jpg": "/static/media/reactLogo.2a0cac33f155e4a27216.jpg",
     "static/media/cssLogo.jpg": "/static/media/cssLogo.463e319bad8e0edf1ef7.jpg",
     "static/media/jsLogo.jpg": "/static/media/jsLogo.3dfb665e058d08c99f28.jpg",
     "index.html": "/index.html",
-    "main.e7e9f8a8.css.map": "/static/css/main.e7e9f8a8.css.map",
-    "main.5966384e.js.map": "/static/js/main.5966384e.js.map"
+    "main.060bb0a1.css.map": "/static/css/main.060bb0a1.css.map",
+    "main.0686656e.js.map": "/static/js/main.0686656e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7e9f8a8.css",
-    "static/js/main.5966384e.js"
+    "static/css/main.060bb0a1.css",
+    "static/js/main.0686656e.js"
   ]
 }
